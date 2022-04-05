@@ -1,0 +1,284 @@
+body {
+    background-color: #333;
+    font-family:monospace;
+}
+
+.textGreen {
+    color:#04AA6D;
+}
+
+.title {
+    color:white;
+}
+
+.subheading {
+    color:lightgray;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.pageHeading {
+    color: #f2f2f2;
+    text-align:center;
+}
+
+hr{
+    color: white;
+    width: 100%;
+}
+
+.dark-mode {
+    background-color: lightgray;
+    color:#333;
+}
+
+.dark-mode .title {
+    color: #04AA6D;
+}
+
+.dark-mode .subheading {
+    color:#04AA6D;
+}
+
+.dark-mode hr {
+    color: lightgray;
+    width: 100%;
+}
+
+.dark-mode .textGreen {
+    color: #333;
+}
+
+.dark-mode .pageHeading {
+    color:#04AA6D;
+}
+
+.topNav {
+    background-color: #333;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-right:10px;
+    text-align: center;
+    color: white;
+}
+.topNav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding:  14px 14px;
+    /* padding-left: 25px; */
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    transition: 0.1s;
+}
+.topNav a:hover {
+    background-color: lightgray;
+    color: black;
+}
+.topNav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+.topNav .closebtn {
+    position: absolute;
+    bottom: 30px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+#main {
+    transition: margin-left .5s;
+}
+@media screen and (max-height: 450px){
+    .sideNav {padding-top: 15px;}
+    .sideNav a {font-size: 18px;}
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+iframe {
+    height: 700px;
+    width: 660px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background-color: #04AA6D; */
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    border-radius: 50%;
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    /* background-color: white; */
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+  
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+  
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.accordion {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.images {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.collapsed {
+    background-color: lightgray;
+    color: #333;
+}
+
+.dark-mode .collapsed {
+    background-color: #333;
+    color: lightgray;
+}
+
+.accordion-collapse {
+    background-color: white;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color:#04AA6D;
+    color:white;
+    text-shadow: 2px;
+}
+
+.qualListTitle {
+    color: #333;
+    text-decoration: underline;
+}
+
+.list-group-item {
+    background-color: lightgray;
+    color: #333;
+}
+
+.dark-mode .list-group-item{
+    background-color: #333;
+    color: lightgray
+}
+
+.dark-mode .qualListTitle {
+    color: lightgray;
+}
+
+.card-title {
+    color: #04AA6D;
+}
+
+.card-text {
+    color: #333;
+    font-size:medium;
+}
+
+.dark-mode .card-title {
+    color: #333;
+}
+
+.dark-mode .card-text {
+    color: #04AA6D;
+}
+
+.card {
+    border-color: #04AA6D;
+    border-width: 3px;
+}
+
+.dark-mode .card {
+    border-color: #333;
+}
+
+.btn-primary {
+    background-color:#04AA6D;
+    border-color: #04AA6D;
+}
+
+.btn-primary:hover {
+    background-color: #333;
+    border-color:#333;
+    color:white;
+}
+
+.dark-mode .btn-primary {
+    background-color: #333;
+    border-color: #333;
+}
+
+.dark-mode .btn-primary:hover {
+    background-color: #04AA6D;
+    border-color:#04AA6D;
+    color: white;
+}
+
+.btn-primary-qual {
+    background-color:#04AA6D;
+    border-color: #04AA6D;
+    color: white;
+}
+
+.btn-primary-qual:hover {
+    background-color: lightgray;
+    border-color:lightgray;
+    color:#333;
+}
+
+.dark-mode .btn-primary-qual {
+    background-color: #333;
+    border-color: #333;
+}
+
+.dark-mode .btn-primary-qual:hover {
+    background-color: #04AA6D;
+    border-color:#04AA6D;
+    color: white;
+}
+
+button {
+    background-color: #04AA6D;
+    font-size: 14px;
+    color:#f2f2f2;
+    border: none;
+}
