@@ -186,6 +186,11 @@ input:checked + .slider:before {
     text-shadow: 2px;
 }
 
+.accordion-body{
+    text-align:left;
+    font-size:medium;
+}
+
 .qualListTitle {
     color: #333;
     text-decoration: underline;
